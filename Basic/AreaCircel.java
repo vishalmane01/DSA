@@ -1,0 +1,22 @@
+package Basic;
+import java.util.Scanner;
+public class AreaCircel {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input radius
+        System.out.print("Enter the radius of the circle: ");
+        double radius = sc.nextDouble();
+
+        // Calculate area
+        double area = Math.PI * radius * radius;
+
+        // Display result
+        System.out.println("Area of the circle is: " + area);
+        
+        
+    }
+}
+
+
