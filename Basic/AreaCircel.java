@@ -12,7 +12,7 @@ public class AreaCircel {
         // Calculate area
         double area = Math.PI * radius * radius;
 
-        // Display result
+        
         System.out.println("Area of the circle is: " + area);
         
         
