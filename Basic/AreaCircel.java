@@ -9,7 +9,6 @@ public class AreaCircel {
         System.out.print("Enter the radius of the circle: ");
         double radius = sc.nextDouble();
 
-        // Calculate area
         double area = Math.PI * radius * radius;
 
         
