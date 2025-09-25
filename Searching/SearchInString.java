@@ -2,7 +2,7 @@ package Searching;
 public class SearchInString {
     public static void main(String[] args){
         String name = "Vishal";
-        char target = 'a' ;
+        char target = 'b' ;
         System.out.println(search(name,target));
     }
 
