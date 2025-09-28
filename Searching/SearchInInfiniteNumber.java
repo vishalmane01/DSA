@@ -44,6 +44,6 @@ public class SearchInInfiniteNumber {
                 return mid; // found
             }
         }
-        return -1; // not found
+        return -1; 
     }
 }
