@@ -41,7 +41,7 @@ public class SearchInInfiniteNumber {
             } else if(target > arr[mid]){
                 start = mid + 1;
             } else {
-                return mid; // found
+                return mid;
             }
         }
         return -1; 
