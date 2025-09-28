@@ -1,6 +1,7 @@
 // Geeksforgeeks article: https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 // Find position of an element in a sorted array of infinite numbers.
 
+
 package Searching;
 
 public class SearchInInfiniteNumber {
