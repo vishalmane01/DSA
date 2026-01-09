@@ -30,19 +30,18 @@ public static List<Integer> findDisappearedNumbers(int[] nums){
             i++;
         }
     }
-List<Integer> ans = new java.util.ArrayList<>();
-for (int index = 0; index < nums.length; index++){
-    if(nums[index] != index+1){
-        ans.add(index+1);
-    }
-}
-return ans;
-
+        List<Integer> ans = new java.util.ArrayList<>();
+        for (int index = 0; index < nums.length; index++){
+            if(nums[index] != index+1){
+                ans.add(index+1);
+            }
+        }
+    return ans;
 } 
 
-static void swap(int[] nums, int first, int second){
-    int temp = nums[first];
-    nums[first] = nums[second];
-    nums[second] = temp;
-}
+    static void swap(int[] nums, int first, int second){
+        int temp = nums[first];
+        nums[first] = nums[second];
+        nums[second] = temp;
+    }
 }

@@ -20,7 +20,7 @@ public class LC268 {
     public static void main(String[] args){
         int[] nums = {3, 0, 1};
         int ans = missingNumber(nums);
-        System.out.println(ans);   // Output: 2
+        System.out.println(ans); // Output: 2
     }
 
     static int missingNumber(int[] nums){
