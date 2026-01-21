@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Nnames {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of names: ");
+        System.out.print("Enter n: ");
         int n = sc.nextInt();
         names(n);
     }
@@ -12,7 +12,8 @@ public class Nnames {
     if(n == 0){
         return;
     }
-    System.out.println("Vishal");
     names(n-1);
+    System.out.println(n);
+
     }
 }
